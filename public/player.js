@@ -123,7 +123,7 @@ window.onload=function()
 
             console.log("hehehehe", r[0].id);
             //play sound and stop current one
-            if(self.sound!==undefined){
+            /*if(self.sound!==undefined){
 
                 if(self.sound.readyState===3){
                     if(self.sound.playState==1){ //if playing
@@ -192,8 +192,7 @@ window.onload=function()
                           volume: 50
                     });
                 }
-
-            }
+            }*/
         });
         
         //on every node change
@@ -468,81 +467,302 @@ window.onload=function()
 
         //left of heart
         var nl9=[];
+        nl9.push(new vector(142, 178));
+        nl9.push(new vector(159, 161));
+        nl9.push(new vector(287, 161));
+        nl9.push(new vector(287, 110));
+        nl9.push(_.clone(node7));
+        nl9.push(_.clone(node8));
+        nl9.push(_.clone(node9));
+        nl9.push(_.clone(node10));
         var t9 = new $traveler(121,177,nl9,9, 116, 172, "/mp3/Gui Boratto - Like You.mp3");
         travelers.push(t9);
         
         var nl10=[];
+        nl10.push(new vector(287, 161));
+        nl10.push(new vector(287, 110));
+        nl10.push(_.clone(node7));
+        nl10.push(_.clone(node8));
+        nl10.push(_.clone(node9));
+        nl10.push(_.clone(node10));        
         var t10 = new $traveler(121,160,nl10,10, 116, 155, "/mp3/Gui Boratto - Like You.mp3");
         travelers.push(t10);
 
         var nl11=[];
+        nl11.push(new vector(155, 122));
+        nl11.push(new vector(191, 160));
+        nl11.push(new vector(287, 161));
+        nl11.push(new vector(287, 110));
+        nl11.push(_.clone(node7));
+        nl11.push(_.clone(node8));
+        nl11.push(_.clone(node9));
+        nl11.push(_.clone(node10));        
         var t11 = new $traveler(158,98,nl11,11, 153, 93, "/mp3/Gui Boratto - Like You.mp3");
         travelers.push(t11);
 
         var nl12=[];
+        nl12.push(new vector(174, 120));
+        nl12.push(new vector(174, 142));
+        nl12.push(new vector(191, 160));
+        nl12.push(new vector(287, 161));
+        nl12.push(new vector(287, 110));
+        nl12.push(_.clone(node7));
+        nl12.push(_.clone(node8));
+        nl12.push(_.clone(node9));
+        nl12.push(_.clone(node10));        
         var t12 = new $traveler(216,120,nl12,12, 211, 115, "/mp3/Gui Boratto - Like You.mp3");
         travelers.push(t12);
 
         //north of heart
         var nl13=[];
+        nl13.push(new vector(328, 75));
+        nl13.push(new vector(347, 75));
+        nl13.push(new vector(347, 97));
+        nl13.push(new vector(351, 104));
+        nl13.push(new vector(342, 99));
+        nl13.push(new vector(249, 99));
+        //nl13.push(new vector(250,63));
+        nl13.push(_.clone(node6));
+        nl13.push(_.clone(node7));
+        nl13.push(_.clone(node8));
+        nl13.push(_.clone(node9));
+        nl13.push(_.clone(node10));        
         var t13 = new $traveler(330,86,nl13,13, 325, 81, "/mp3/Gui Boratto - Like You.mp3");
         travelers.push(t13);
 
         var nl14=[];
+        nl14.push(new vector(335, 58));
+        nl14.push(new vector(356, 58));
+        nl14.push(new vector(356, 96));
+        nl14.push(new vector(361, 106));
+        nl14.push(new vector(365, 118));
+        nl14.push(new vector(369, 129));
+        nl14.push(new vector(360, 136));
+        nl14.push(new vector(352, 146));
+        nl14.push(new vector(346, 164));
+        nl14.push(new vector(340, 177));
+        nl14.push(new vector(346, 186));
         var t14 = new $traveler(338,24,nl14,14, 333, 19, "/mp3/Gui Boratto - Like You.mp3");
         travelers.push(t14);
 
         var nl15=[];
+        nl15.push(new vector(356, 58));
+        nl15.push(new vector(356, 96));
+        nl15.push(new vector(361, 106));
+        nl15.push(new vector(365, 118));
+        nl15.push(new vector(369, 129));
+        nl15.push(new vector(360, 136));
+        nl15.push(new vector(352, 146));
+        nl15.push(new vector(346, 164));
+        nl15.push(new vector(340, 177));
+        nl15.push(new vector(346, 186));        
         var t15 = new $traveler(360,40,nl15,15, 355, 35, "/mp3/Gui Boratto - Like You.mp3");
         travelers.push(t15);
 
         var nl16=[];
-        var t16 = new $traveler(401,30,nl16,16, 395, 25, "/mp3/Gui Boratto - Like You.mp3");
+        nl16.push(new vector(373, 54));
+        nl16.push(new vector(376, 113));
+        nl16.push(new vector(372, 121));
+        nl16.push(new vector(369, 129));
+        nl16.push(new vector(360, 136));
+        nl16.push(new vector(352, 146));
+        nl16.push(new vector(346, 164));
+        nl16.push(new vector(340, 177));
+        nl16.push(new vector(346, 186));
+        var t16 = new $traveler(401,28,nl16,16, 395, 25, "/mp3/Gui Boratto - Like You.mp3");
         travelers.push(t16);
 
         var nl17=[];
+        nl17.push(new vector(373, 66));
+        nl17.push(new vector(376, 113));
+        nl17.push(new vector(372, 121));
+        nl17.push(new vector(369, 129));
+        nl17.push(new vector(360, 136));
+        nl17.push(new vector(352, 146));
+        nl17.push(new vector(346, 164));
+        nl17.push(new vector(340, 177));
+        nl17.push(new vector(346, 186));           
         var t17 = new $traveler(413,30,nl17,17, 408, 25, "/mp3/Gui Boratto - Like You.mp3");
         travelers.push(t17);
 
         var nl18=[];
+        nl18.push(new vector(385, 76));
+        nl18.push(new vector(385, 110));
+        nl18.push(new vector(382, 117));
+        nl18.push(new vector(390, 108));
+        nl18.push(new vector(402, 103));
+        nl18.push(new vector(478, 103));
+        nl18.push(new vector(477, 113));
+        nl18.push(new vector(401, 113));
+        nl18.push(new vector(391, 126));
+        nl18.push(new vector(402, 130));
+        nl18.push(new vector(404, 130));
+        nl18.push(new vector(410, 136));
+        nl18.push(new vector(406, 136));
+        nl18.push(new vector(398, 143));
+        nl18.push(new vector(388, 147));
+        nl18.push(new vector(383, 147));
         var t18 = new $traveler(418,76,nl18,18, 413, 71, "/mp3/Gui Boratto - Like You.mp3");
         travelers.push(t18);
 
         //top, right
         var nl19=[];
-        var t19 = new $traveler(464,43,nl19,19, 459, 37, "/mp3/Gui Boratto - Like You.mp3");
+        nl19.push(new vector(477, 61));
+        nl19.push(new vector(477, 103));
+        nl19.push(new vector(477, 113));
+        nl19.push(new vector(401, 113));
+        nl19.push(new vector(391, 126));
+        nl19.push(new vector(402, 131));
+        nl19.push(new vector(404, 131));
+        nl19.push(new vector(410, 136));
+        nl19.push(new vector(406, 136));
+        nl19.push(new vector(398, 143));
+        nl19.push(new vector(388, 147));
+        nl19.push(new vector(383, 147));        
+        var t19 = new $traveler(460,44,nl19,19, 459, 37, "/mp3/Gui Boratto - Like You.mp3");
         travelers.push(t19);
 
         var nl20=[];
+        nl20.push(new vector(531, 41));
+        nl20.push(new vector(531, 61));
+        nl20.push(new vector(477, 61));
+        nl20.push(new vector(477, 103));
+        nl20.push(new vector(477, 113));
+        nl20.push(new vector(401, 113));
+        nl20.push(new vector(391, 126));
+        nl20.push(new vector(402, 131));
+        nl20.push(new vector(404, 131));
+        nl20.push(new vector(410, 136));
+        nl20.push(new vector(406, 136));
+        nl20.push(new vector(398, 143));
+        nl20.push(new vector(388, 147));
+        nl20.push(new vector(383, 147));         
         var t20 = new $traveler(566,41,nl20,20, 561, 35, "/mp3/Gui Boratto - Like You.mp3");
         travelers.push(t20);  
 
         var nl21=[];
+        nl21.push(new vector(531, 68));
+        nl21.push(new vector(531, 61));
+        nl21.push(new vector(477, 61));
+        nl21.push(new vector(477, 103));
+        nl21.push(new vector(477, 113));
+        nl21.push(new vector(401, 113));
+        nl21.push(new vector(391, 126));
+        nl21.push(new vector(402, 131));
+        nl21.push(new vector(404, 131));
+        nl21.push(new vector(410, 136));
+        nl21.push(new vector(406, 136));
+        nl21.push(new vector(398, 143));
+        nl21.push(new vector(388, 147));
+        nl21.push(new vector(383, 147));         
         var t21 = new $traveler(608,67,nl21,21, 603, 61, "/mp3/Gui Boratto - Like You.mp3");
         travelers.push(t21);   
 
         var nl22=[];
+        nl22.push(new vector(531, 68));
+        nl22.push(new vector(531, 61));
+        nl22.push(new vector(477, 61));
+        nl22.push(new vector(477, 103));
+        nl22.push(new vector(477, 113));
+        nl22.push(new vector(401, 113));
+        nl22.push(new vector(391, 126));
+        nl22.push(new vector(402, 131));
+        nl22.push(new vector(404, 131));
+        nl22.push(new vector(410, 136));
+        nl22.push(new vector(406, 136));
+        nl22.push(new vector(398, 143));
+        nl22.push(new vector(388, 147));
+        nl22.push(new vector(383, 147));        
         var t22 = new $traveler(534,84,nl22,22, 529, 78, "/mp3/Gui Boratto - Like You.mp3");
         travelers.push(t22);   
 
         var nl23=[];
+        nl23.push(new vector(580, 103));
+        nl23.push(new vector(567, 103));
+        nl23.push(new vector(554, 103));
+        nl23.push(new vector(541, 103));
+        nl23.push(new vector(477, 103));
+        nl23.push(new vector(477, 113));
+        nl23.push(new vector(401, 113));
+        nl23.push(new vector(391, 126));
+        nl23.push(new vector(402, 131));
+        nl23.push(new vector(404, 131));
+        nl23.push(new vector(410, 136));
+        nl23.push(new vector(406, 136));
+        nl23.push(new vector(398, 143));
+        nl23.push(new vector(388, 147));
+        nl23.push(new vector(383, 147));         
         var t23 = new $traveler(611,102,nl23,23, 606, 96, "/mp3/Gui Boratto - Like You.mp3");
         travelers.push(t23); 
 
         //top right bottom (next 4)    
         var nl24=[];
+        nl24.push(new vector(541, 103));
+        nl24.push(new vector(477, 103));
+        nl24.push(new vector(477, 113));
+        nl24.push(new vector(401, 113));
+        nl24.push(new vector(391, 126));
+        nl24.push(new vector(402, 131));
+        nl24.push(new vector(404, 131));
+        nl24.push(new vector(410, 136));
+        nl24.push(new vector(406, 136));
+        nl24.push(new vector(398, 143));
+        nl24.push(new vector(388, 147));
+        nl24.push(new vector(383, 147));        
         var t24 = new $traveler(544,133,nl24,24, 538, 127, "/mp3/Gui Boratto - Like You.mp3");
         travelers.push(t24); 
 
         var nl25=[];
+        nl25.push(new vector(554, 103));
+        nl25.push(new vector(541, 103));
+        nl25.push(new vector(477, 103));
+        nl25.push(new vector(477, 113));
+        nl25.push(new vector(401, 113));
+        nl25.push(new vector(391, 126));
+        nl25.push(new vector(402, 131));
+        nl25.push(new vector(404, 131));
+        nl25.push(new vector(410, 136));
+        nl25.push(new vector(406, 136));
+        nl25.push(new vector(398, 143));
+        nl25.push(new vector(388, 147));
+        nl25.push(new vector(383, 147));        
         var t25 = new $traveler(557,133,nl25,25, 551, 127, "/mp3/Gui Boratto - Like You.mp3");
         travelers.push(t25); 
 
         var nl26=[];
+        nl26.push(new vector(567, 103));
+        nl26.push(new vector(554, 103));
+        nl26.push(new vector(541, 103));
+        nl26.push(new vector(477, 103));
+        nl26.push(new vector(477, 113));
+        nl26.push(new vector(401, 113));
+        nl26.push(new vector(391, 126));
+        nl26.push(new vector(402, 131));
+        nl26.push(new vector(404, 131));
+        nl26.push(new vector(410, 136));
+        nl26.push(new vector(406, 136));
+        nl26.push(new vector(398, 143));
+        nl26.push(new vector(388, 147));
+        nl26.push(new vector(383, 147));         
         var t26 = new $traveler(570,133,nl26,26, 564, 127, "/mp3/Gui Boratto - Like You.mp3");
         travelers.push(t26); 
 
         var nl27=[];
+        nl27.push(new vector(580, 103));
+        nl27.push(new vector(567, 103));
+        nl27.push(new vector(554, 103));
+        nl27.push(new vector(541, 103));
+        nl27.push(new vector(477, 103));
+        nl27.push(new vector(477, 113));
+        nl27.push(new vector(401, 113));
+        nl27.push(new vector(391, 126));
+        nl27.push(new vector(402, 131));
+        nl27.push(new vector(404, 131));
+        nl27.push(new vector(410, 136));
+        nl27.push(new vector(406, 136));
+        nl27.push(new vector(398, 143));
+        nl27.push(new vector(388, 147));
+        nl27.push(new vector(383, 147));         
         var t27 = new $traveler(583,133,nl27,27, 577, 127, "/mp3/Gui Boratto - Like You.mp3");
         travelers.push(t27);                                                     
 
@@ -609,7 +829,7 @@ window.onload=function()
         //draw new arcs on every cycle
         $.each(travelers, function(idx, el){
             arc(el[0].positionX,el[0].positionY,4*proportion,el[0].opacity, 2);
-            eqArc(el[0].initialX,el[0].initialY,6*proportion,1, 8);
+            //eqArc(el[0].initialX,el[0].initialY,6*proportion,1, 8);
             moveTraveler(el,el[0].velocity);
         });
 
