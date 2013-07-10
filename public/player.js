@@ -5,7 +5,6 @@ window.onload=function()
     var ctx = canvas.getContext("2d");
     
     ctx.globalCompositeOperation = "lighter";
-
     var W_WIDTH = window.innerWidth;
     var W_HEIGHT = window.innerHeight;
 
@@ -38,6 +37,8 @@ window.onload=function()
             canvas.height = img.height*proportion;
             console.log("img load");
             ctx.drawImage(this,0,0,canvas.width,canvas.height);
+            $("#canvasContainer").width(canvas.width);
+            $("#canvasContainer").show();
         }
         
         return setInterval(draw, 40);
